@@ -26,13 +26,19 @@
     "email": "augmity@augmity.com"
   },
   "dependencies": {
+    "@angular/common": "^4.0.0",
+    "@angular/compiler": "^4.0.0",
     "@angular/core": "^4.0.0",
+    "@angular/platform-browser": "^4.0.0",
     "@types/lodash": "^4.14.58",
+    "bootstrap": "^4.0.0-alpha.6",
     "lodash": "^4.14.58",
-    "rxjs": "^5.0.1"
+    "rxjs": "^5.0.1",
+    "zone.js": "^0.8.14"
   },
   "devDependencies": {
-    "tslint": "~4.5.0",
-    "typescript": "~2.2.0"
+    "tslint": "~5.3.2",
+    "codelyzer": "~3.0.1",
+    "typescript": "^2.3.2"
   }
 }
